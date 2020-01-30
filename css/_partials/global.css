@@ -8,3 +8,39 @@
 .text-color{
     color: #555555;
 }
+
+.button{
+    padding: .7rem 3rem;
+    font: normal 600 18px/20px var(--font-1);
+    position: relative;
+    border: 3px solid var(--primary-color);
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.button.primary-button{
+    background: var(--primary-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: var(--primary-color2);
+    text-decoration: none;
+}
+
+.button.secondary-button{
+    border: 2px solid var(--primary-color2);
+    background: transparent;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--primary-color);
+    color: whitesmoke;
+    text-decoration: none;
+}
