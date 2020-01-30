@@ -1,0 +1,8 @@
+/* CSS Variables */ 
+:root{
+    --primary-color: #fe7e11;
+    --gradient-color: linear-gradient(#fe7e11, #fd7906);
+    --primary-color2: #666666;
+    --font-1: 'Montserrat', sans-serif;
+    --font-2: 'Lato', sans-serif;
+}
