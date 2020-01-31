@@ -3,29 +3,116 @@
 @import url(./_partials/variables.css);
 
 /* Header Area */
-header{
+header {
     background: #FAFAFA;
 }
-header .navbar-brand{
-    padding: .5rem 2rem;
+
+header .navbar {
+    padding: 1rem 0 3rem 0;
 }
-header .navbar-brand > img{
+
+header .navbar-brand {
+    padding: .5rem 0rem;
+}
+
+header .navbar-brand>img {
     width: 100%;
     height: auto;
 }
-header .navbar .navbar-nav{
-    padding: 0 0 0 4rem;
+
+header .navbar .navbar-nav {
+    padding: 0 0 0 10rem;
 }
-header .navbar .nav-link{
+
+header .navbar .nav-link {
     font: normal 600 17px/19px var(--font-1);
     text-transform: uppercase;
     margin: 0 .2rem;
-    color: var(--primary-color2)   !important;
+    color: var(--primary-color2) !important;
     transition: .2s ease;
 }
-header .navbar .nav-link.active{
+
+header .navbar .nav-link.active {
     color: var(--primary-color) !important;
 }
-header .navbar .nav-link:hover{
+
+header .navbar .nav-link:hover {
     color: var(--primary-color) !important;
+}
+
+header .hero .title-s {
+    font: normal 600 18px/18px var(--font-1);
+    color: var(--primary-color2);
+    padding: 5rem 0 1.5rem 0;
+}
+
+header .hero h2.title {
+    font: normal 600 60px/60px var(--font-1);
+    color: var(--primary-color);
+    padding: 0 0 .5rem 0;
+}
+
+header .hero .subtitle {
+    font: normal 500 24px/30px var(--font-1);
+    color: var(--primary-color2);
+    padding: 0 0 3rem 0;
+}
+
+header .hero .img-area {
+    padding: 0 0rem 0 5rem;
+}
+
+header .hero .img-area>img {
+    transition: .6s ease;
+}
+
+header .hero .img-area>img:hover {
+    filter: brightness(.9);
+    transform: scale(1.02);
+}
+
+/* About Me Area */
+.about-me {
+    background: #f0f0f0;
+}
+
+.about-me .img-container {
+    margin: 3rem 0 3rem 0;
+    border-left: 5px solid var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+}
+
+.about-me .img-container>img {
+    transition: .6s ease;
+}
+
+.about-me .img-container>img:hover {
+    filter: brightness(.9);
+    transform: scale(1.02);
+}
+
+.about-me .all-container {
+    padding: 1.7rem 10rem 0 2rem;
+}
+
+.about-me .title-s {
+    padding: 0 0 1rem 0;
+}
+
+.about-me .subtitle {
+    color: #555555;
+    font: normal 500 15px/20px var(--font-2);
+}
+
+.about-me .row .row {
+    font: normal 500 15px/20px var(--font-2);
+    color: #555555;
+}
+
+.about-me .row a.primary-button {
+    margin: 0 .5rem 0 0;
+}
+
+.about-me .row a.secondary-button {
+    margin: 0 0 0 .5rem;
 }
