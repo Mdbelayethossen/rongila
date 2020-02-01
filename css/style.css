@@ -116,3 +116,63 @@ header .hero .img-area>img:hover {
 .about-me .row a.secondary-button {
     margin: 0 0 0 .5rem;
 }
+/* Service area */
+.service .row .text-container{
+    background: #eeeeee;
+    margin: .7rem 0;
+    padding: 1rem;
+    color: var(--primary-color2);
+    transition: .5s ease;
+}
+.service .row .text-container:hover{
+    box-shadow: 0 3px 3px #a5a2a2;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.service .icon{
+    padding: .5rem 0;
+}
+.service .icon i{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: var(--primary-color);
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.service .row .text-container:hover .icon i{
+    background: var(--primary-color);
+    color: #fff;
+}
+.service h5{
+    text-transform: uppercase;
+    font: normal 600 16px/16px var(--font-2);
+    padding: .5rem 0 0 0;
+}
+.service p{
+    font: normal 500 15px/16px var(--font-2);
+}
+/* Count area */
+.count-area{
+    background: #f0f0f0;
+}
+.count-area .icon-box i{
+    width: 50px;
+    height: 50px;
+    background: #a0a0a0;
+    font-size: 25px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+.count-area h3{
+    margin: 1rem auto;
+    color: var(--primary-color);
+    font: normal 600 36px/36px var(--font-1);
+}
+.count-area p{
+    color: #666666;
+    font: normal 500 17px/17px var(--font-1);
+}
