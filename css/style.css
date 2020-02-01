@@ -116,24 +116,27 @@ header .hero .img-area>img:hover {
 .about-me .row a.secondary-button {
     margin: 0 0 0 .5rem;
 }
+
 /* Service area */
-.service .row .text-container{
+.service .row .text-container {
     background: #eeeeee;
     margin: .7rem 0;
     padding: 1rem;
     color: var(--primary-color2);
     transition: .5s ease;
 }
-.service .row .text-container:hover{
+
+.service .row .text-container:hover {
     box-shadow: 0 3px 3px #a5a2a2;
     transform: scale(1.02);
     cursor: pointer;
 }
 
-.service .icon{
+.service .icon {
     padding: .5rem 0;
 }
-.service .icon i{
+
+.service .icon i {
     width: 40px;
     height: 40px;
     background: #fff;
@@ -142,23 +145,32 @@ header .hero .img-area>img:hover {
     border-radius: 50%;
     text-align: center;
 }
-.service .row .text-container:hover .icon i{
+
+.service .row .text-container:hover .icon i {
     background: var(--primary-color);
     color: #fff;
 }
-.service h5{
+
+.service h5 {
     text-transform: uppercase;
     font: normal 600 16px/16px var(--font-2);
     padding: .5rem 0 0 0;
 }
-.service p{
+
+.service p {
     font: normal 500 15px/16px var(--font-2);
 }
+
 /* Count area */
-.count-area{
+.count-area {
     background: #f0f0f0;
 }
-.count-area .icon-box i{
+.count-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.count-area .icon-box i {
     width: 50px;
     height: 50px;
     background: #a0a0a0;
@@ -167,12 +179,105 @@ header .hero .img-area>img:hover {
     color: #fff;
     border-radius: 50%;
 }
-.count-area h3{
+
+.count-area h3 {
     margin: 1rem auto;
     color: var(--primary-color);
     font: normal 600 36px/36px var(--font-1);
 }
-.count-area p{
+
+.count-area p {
     color: #666666;
     font: normal 500 17px/17px var(--font-1);
+}
+
+.skill-names {
+    font: normal 600 30px/30px var(--font-1);
+    color: var(--primary-color2);
+}
+
+.skills .text-area {
+    color: #555555;
+    font: normal 500 15px/22px var(--font-2);
+}
+
+/* Contact Area */
+.contact {
+    background: linear-gradient(rgba(241, 239, 239, 0.6),rgba(241, 239, 239, 0.6)),url(../images/bg-1.png) no-repeat top center;
+}
+.contact .contact-title{
+    font: normal 600 36px/50px var(--font-1);
+    color: var(--primary-color);
+    padding: .5rem 2rem;
+}
+.contact .contact-subtitle{
+    font: normal 500 15px/20px var(--font-1);
+    color: #555555;
+    padding: 0 2rem;
+}
+/* Resume */
+.resume{
+    background: #fafafa;
+}
+.resume .text-area {
+    color: #555555;
+    font: normal 500 15px/22px var(--font-2);
+}
+.resume .main-box{
+    background: #eeeeee;
+    position: relative;
+    box-shadow: 0 5px 5px #b7b7b7;
+    transition: .5s ease;
+}
+.resume .main-box:hover{
+    transform: scale(1.05);
+}
+.resume .img-shape2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.resume .date{
+    font: normal 500 15px/15px var(--font-2);
+    color: #666666;
+}
+.resume .title{
+    font: normal 600 20px/20px var(--font-2);
+    color: var(--primary-color);
+}
+.resume .subtitle{
+    font: normal 500 15px/18px var(--font-2);
+    color: #666666;
+}
+/* Testimonial */
+.test{
+    background: #f0f0f0;
+}
+.test .content{
+    margin: 0 13rem;
+    background: #e2e2e2;
+    color: #555555;
+    font: normal 500 15px/25px var(--font-1);
+}
+.test .img-container{
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+.test .img-container>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.test .name{
+    font: normal 600 24px/24px var(--font-1);
+    color: #666666;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
 }
