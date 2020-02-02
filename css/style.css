@@ -369,3 +369,86 @@ header .hero .img-area>img:hover {
 .letest-project .row .row .col-12:last-child{
     margin: .75rem 0 0 0;
 }
+/*Blog Area*/
+.blog{
+    background: #f0f0f0;
+    padding: 1.5rem 0 3rem 0;
+}
+.blog .blog-container{
+    background: #e2e2e2;
+    color: #555555;
+    transition: .5s ease;
+}
+.blog .blog-container:hover{
+    box-shadow: var(--shadow-color);
+    transform: scale(1.01);
+}
+
+.blog .blog-container .blog-title{
+    font: normal 600 22px/22px var(--font-2);
+}
+.blog .blog-container .blog-sub{
+    font: normal 500 15px/20px var(--font-2);
+}
+/* Contact Me area */
+.contact-me .row .row i {
+    width: 45px;
+    height: 40px;
+    line-height: 35px;
+    background: var(--primary-color2);
+    text-align: center;
+    margin: .3rem 1rem;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+    color: #fff;
+}
+.contact-me .row .row .address-text {
+    color: #555555;
+    font: normal 500 20px/25px var(--font-2);
+}
+/* Form area */
+form .name,
+form .email,
+form .message{
+    width: 100%;
+    padding: 15px;
+    color: #555555;
+    background: transparent;
+    border: 1px solid #555555;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+form .name:hover,
+form .email:hover,
+form .message:hover{
+    border: 1px solid var(--primary-color);
+}
+form .name::placeholder,
+form .email::placeholder,
+form .message::placeholder{
+   color: #666666;
+   opacity: 1;
+}
+form .message{
+    height: 220px;
+    resize: none;
+    padding: 25px 15px;
+}
+form .submit-btn .btn{
+    font-size: 18px;
+}
+/*Footer */
+footer .footer-title{
+    font: normal 500 14px/14px var(--font-2);
+    color: #666666;
+}
+footer .social a{
+    margin: 0 1rem;
+    color: #555555;
+    font-size: 20px;
+    transition: .2s ease;
+}
+footer .social a:hover{
+    margin: 0 1rem;
+    color: var(--primary-color);
+}

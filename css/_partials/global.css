@@ -14,7 +14,7 @@ section {
 }
 
 .button {
-    padding: .7rem 3rem;
+    padding: .7rem 2.5rem;
     font: normal 600 18px/20px var(--font-1);
     position: relative;
     border: 2px solid var(--primary-color);
