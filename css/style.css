@@ -263,13 +263,17 @@ header .hero .img-area>img:hover {
     position: relative;
     margin: 0 auto;
     padding: 10px;
-    width: 100px;
+    width: 120px;
     text-align: center;
 }
 .test .img-container>img{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
+    position: absolute;
+    top: -1.5rem;
+    left: 1rem;
+    border: 3px solid #fff;
 }
 .test .name{
     font: normal 600 24px/24px var(--font-1);
@@ -280,4 +284,88 @@ header .hero .img-area>img:hover {
 }
 .owl-theme .owl-dots .owl-dot.active span{
     background: var(--primary-color);
+}
+/* Letest Project */
+.letest-project .img-box{
+    position: relative;
+    transition: .5s ease;
+    height: auto;
+    overflow: hidden;
+}
+.letest-project .last-img{
+    height: inherit;
+    max-height: 192px;
+    width: auto;
+}
+.letest-project .last-img>img{
+    width: inherit;
+    height: inherit;
+}
+.letest-project .img-box .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.letest-project .img-box:hover .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(236, 138, 58, 0.9);
+}
+.letest-project .img-box .overlay .overlay-content{
+    display: none;
+}
+.letest-project .img-box:hover .overlay .overlay-content{
+    display: block;
+    color: #fff;
+    width: 100% ;
+    text-align: center;
+    position: absolute;
+    bottom: 15rem;
+}
+.letest-project .img-box .overlay .overlay-content2{
+    display: none;
+    transition: .5s ease;
+}
+.letest-project .img-box:hover .overlay .overlay-content2{
+    display: block;
+    color: #fff;
+    width: 100% ;
+    text-align: center;
+    position: absolute;
+    bottom: 6rem;
+    left: 0;
+}
+.letest-project .img-box .overlay .overlay-content3{
+    display: none;
+}
+.letest-project .img-box:hover .overlay .overlay-content3{
+    display: block;
+    color: #fff;
+    width: 100% ;
+    text-align: center;
+    position: absolute;
+    bottom: 4rem;
+    left: 0;
+}
+.letest-project .img-box:hover .overlay .overlay-content i.fas,.letest-project .img-box:hover .overlay .overlay-content2 i.fas{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    background: #fff;
+}
+.letest-project .row .row .col-12:first-child{
+    margin: 0 0 .75rem 0;
+}
+.letest-project .row .row .col-12:last-child{
+    margin: .75rem 0 0 0;
 }
