@@ -54,6 +54,11 @@
         padding: 0 0rem 0 .5rem;
         margin: 0 auto;
     }
+    header .hero .title-s {
+        font: normal 600 18px/18px var(--font-1);
+        color: var(--primary-color2);
+        padding: 0 0 1.3rem 0;
+    }
     .button{
         padding: .5rem 1.5rem;
         font: normal 600 15px/20px var(--font-1);
