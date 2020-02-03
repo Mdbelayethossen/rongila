@@ -1,0 +1,5 @@
+@media all and (max-width: 1199px) {
+    .about-me .all-container {
+        padding: 1.7rem 4rem 0 2rem;
+    }
+}
