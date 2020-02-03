@@ -90,6 +90,12 @@ $(document).ready(function () {
 			}
 		}
 	})
+	
+	//Magnific Popup init
+	$('.letest-project .popup-container .test-popup-link').magnificPopup({
+        type: 'image',
+        gallery: { enabled: true }
+    });
 
 
 })
