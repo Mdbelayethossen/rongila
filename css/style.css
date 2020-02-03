@@ -400,15 +400,16 @@ header .hero .img-area>img:hover {
     display: none;
 }
 
-.letest-project .img-box:hover .overlay .overlay-content i.fas,
-.letest-project .img-box2:hover .overlay .overlay-content2 i.fas,
+.letest-project .img-box:hover .overlay .overlay-content a>i.fas,
+.letest-project .img-box2:hover .overlay .overlay-content2 a>i.fas,
+.letest-project .img-box2:hover .overlay .overlay-content3 a>i.fas,
     {
     width: 50px;
     height: 50px;
     font-size: 25px;
     line-height: 50px;
     border-radius: 50%;
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
     background: #fff;
 }
 
